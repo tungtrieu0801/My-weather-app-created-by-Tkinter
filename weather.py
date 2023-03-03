@@ -30,8 +30,8 @@ def ziplookup():
         my_lbl.grid(row=1,column=0,columnspan=2)
     except Exception as e:
         api = 'ERROR...'
-    my_lbl=Label(window, text=api, background='#CCCCFF')
-    my_lbl.grid(row=1,column=0,columnspan=2)
+        my_lbl=Label(window, text=api, background='#CCCCFF')
+        my_lbl.grid(row=1,column=0,columnspan=2)
     window.configure(background='#99FF66')
 zip=Entry(window)
 zip.grid(row=0, column=0, sticky=W+E+N+S)
