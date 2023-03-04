@@ -39,3 +39,4 @@ zip.grid(row=0, column=0, sticky=W+E+N+S)
 zipButton=Button(window, text='Type zipcode here', command=ziplookup)
 zipButton.grid(row=0,column=1,sticky=W+E+N+S)
 window.mainloop()
+#bonus a web U.S. Zip Code
